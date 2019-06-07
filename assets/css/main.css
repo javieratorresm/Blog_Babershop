@@ -9704,6 +9704,7 @@ p {
 }
 
 .navigation_container {
+  background-color: #121619;
   padding-top: 2rem;
   padding-left: 2rem;
 }
@@ -9714,6 +9715,10 @@ p {
 
 .active {
   color: #ECBCBA;
+}
+
+.navbar-toggler-icon {
+  background-color: #FFF;
 }
 
 .logo {
@@ -9783,16 +9788,16 @@ p {
   border-radius: 0px 130px 130px 0px;
 }
 
+.page-item-selected {
+  background-color: #121619;
+}
+
 .pagination_container {
   width: 100%;
 }
 
 .page-link-change {
   color: #121619;
-}
-
-.page-item-selected {
-  background-color: #6C6E70;
 }
 
 .footer {
@@ -9809,6 +9814,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   width: 190px;
+  color: #FFF;
 }
 
 .card-title {

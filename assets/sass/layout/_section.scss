@@ -25,6 +25,9 @@
 
 }
 
+.page-item-selected{
+  background-color: $eerieblack;
+}
 .pagination_container{
 width: 100%;
 }
@@ -32,8 +35,4 @@ width: 100%;
 .page-link-change{
   color: $eerieblack;
 
-}
-
-.page-item-selected{
-  background-color: $nickel;
 }
