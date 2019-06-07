@@ -1,0 +1,25 @@
+.main {
+  background-color: $jellybean;
+  color: #ffffff;
+}
+.main__container {
+  align-items: center;
+  color: $white;
+
+}
+.main__title {
+  text-align: center;
+  font-weight: $light;
+  font-size: $x-large;
+
+}
+.main__title-emphasis {
+  font-family: $raleway;
+  font-weight: $bold;
+  text-align: center;
+
+}
+.main__title-emphasis_size-xxl {
+  font-size: $x-large;
+
+}

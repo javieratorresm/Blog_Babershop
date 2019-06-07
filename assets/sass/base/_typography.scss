@@ -1,0 +1,20 @@
+//Font Family
+$raleway: 'Raleway', sans-serif;
+// Font Weight
+$light: 200;
+$regular: 600;
+$bold: 700;
+
+// Font Sizes
+$xx-large: 100px;
+$x-large: 70px;
+$large: 50px;
+$medium: 18px;
+
+
+/* Base Typography*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: $raleway;
+  font-weight: $regular;
+  font-size: $medium;
+}
