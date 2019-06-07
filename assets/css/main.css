@@ -9764,6 +9764,14 @@ p {
   font-size: 16px;
 }
 
+.thumb_card {
+  background-color: #FFF;
+  align-items: center;
+  color: #222323;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
 .footer {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -9778,6 +9786,15 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   width: 190px;
+}
+
+.card-title {
+  font-style: italic;
+}
+
+.card-text-link {
+  color: #ECBCBA;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
