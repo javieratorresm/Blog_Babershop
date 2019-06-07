@@ -4,7 +4,9 @@ $playfair: 'Playfair Display', serif;
 // Font Weight
 $light: 300;
 $regular: 400;
+$boldi: 900;
 $bold: 700;
+
 
 // Font Sizes
 $xx-large: 70px;
@@ -17,7 +19,7 @@ $small: 12px;
 /* Base Typography*/
 h1{
   font-family: $playfair;
-  font-weight: $bold;
+  font-weight: $boldi;
   font-size: $xx-large;
 }
 h2{
