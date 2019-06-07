@@ -1,20 +1,46 @@
 //Font Family
-$raleway: 'Raleway', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$playfair: 'Playfair Display', serif;
 // Font Weight
-$light: 200;
-$regular: 600;
+$light: 300;
+$regular: 400;
 $bold: 700;
 
 // Font Sizes
-$xx-large: 100px;
-$x-large: 70px;
-$large: 50px;
-$medium: 18px;
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
 
 
 /* Base Typography*/
-h1, h2, h3, h4, h5, h6 {
-  font-family: $raleway;
+h1{
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $xx-large;
+}
+h2{
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $x-large;
+}
+
+h3{
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $large;
+}
+
+h4{
+  font-family: $roboto;
   font-weight: $regular;
   font-size: $medium;
+}
+
+
+p{
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $small;
 }
