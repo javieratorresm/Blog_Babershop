@@ -9747,6 +9747,7 @@ p {
 
 .main__date {
   text-align: left;
+  padding-bottom: 2%;
   font-weight: 300;
   font-size: 16px;
 }
@@ -9770,6 +9771,28 @@ p {
   color: #222323;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+}
+
+.pagination {
+  background-color: #E6E7E7;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.pagination_div {
+  border-radius: 0px 130px 130px 0px;
+}
+
+.pagination_container {
+  width: 100%;
+}
+
+.page-link-change {
+  color: #121619;
+}
+
+.page-item-selected {
+  background-color: #6C6E70;
 }
 
 .footer {

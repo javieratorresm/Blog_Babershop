@@ -9,4 +9,31 @@
   color: $raisin-black;
   font-family: $roboto;
   font-weight: $light;
+
+}
+
+.pagination{
+  background-color: $platinum;
+  align-items: center;
+  font-family: $roboto;
+
+
+}
+.pagination_div{
+  border-radius: 0px 130px 130px 0px;
+
+
+}
+
+.pagination_container{
+width: 100%;
+}
+
+.page-link-change{
+  color: $eerieblack;
+
+}
+
+.page-item-selected{
+  background-color: $nickel;
 }
